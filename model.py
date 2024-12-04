@@ -1,6 +1,4 @@
-"""
-Recognize food: fruit, vegetable
-"""
+
 
 import io
 import os
@@ -15,7 +13,7 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'client_key.json'
 # Source path content all images
 SOURCE_PATH = "E:/temp_uploads/Photos/Fruit/"
 
-FOOD_TYPE = 'Fruit'  # 'Vegetable'
+FOOD_TYPE = 'Fruit'  # 'Vegetable' or 'Junk'
 
 
 def load_food_name(food_type):
